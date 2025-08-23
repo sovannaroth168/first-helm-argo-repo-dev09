@@ -9,7 +9,7 @@ replicaCount: 1
 image:
   repository: 69966/earthdx
   pullPolicy: IfNotPresent
-  tag: "77"
+  tag: "76"
 # image:
 #   repository: nginx
 #   pullPolicy: IfNotPresent
