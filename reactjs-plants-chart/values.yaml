@@ -10,9 +10,9 @@ replicaCount: 1
 #   pullPolicy: IfNotPresent
 #   tag: "76"
 image:
-  repository: lyvanna544/k8s-reactjs-dev09
+  repository: nginx
   pullPolicy: IfNotPresent
-  tag: "33530aea"
+  tag: "latest"
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 imagePullSecrets: []
 # This is to override the chart name.
